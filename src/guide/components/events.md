@@ -12,7 +12,7 @@
 
 ```vue-html
 <!-- MyComponent -->
-<button @click="$emit('someEvent')">клік</button>
+<button @click="$emit('someEvent')">натиснути</button>
 ```
 
 <div class="options-api">
@@ -416,7 +416,7 @@ const value = computed({
 
 ### Агрументи `v-model` {#v-model-arguments}
 
-За замовчуванням `v-model` для компонента використовує `modelValue` як реквізит і `update:modelValue` як подію. Ми можемо змінити ці імена, передавши аргумент `v-model`:
+За промовчанням `v-model` для компонента використовує `modelValue` як реквізит і `update:modelValue` як подію. Ми можемо змінити ці імена, передавши аргумент `v-model`:
 
 ```vue-html
 <MyComponent v-model:title="bookTitle" />
