@@ -190,7 +190,7 @@ export const sidebar = {
         { text: 'Реквізити', link: '/guide/components/props' },
         { text: 'Події', link: '/guide/components/events' },
         {
-          text: 'Атрибути Fallthrough',
+          text: 'Прохідні атрибути',
           link: '/guide/components/attrs'
         },
         { text: 'Слоти', link: '/guide/components/slots' },
@@ -642,7 +642,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     editLink: {
-      repo: 'vuejsorgua/docs',
+      repo: 'vuejs-translations/docs-uk',
       text: 'Редагувати цю сторінку на GitHub'
     },
 
